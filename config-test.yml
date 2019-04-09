@@ -1,14 +1,1 @@
-server:
-  port: 9091
-
-
-spring:
-  application:
-    name: config
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/zhonglunsheng/config.git
-          username: 873946453@qq.com
-          password: a873946453
+env: 9091
