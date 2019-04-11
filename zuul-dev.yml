@@ -9,4 +9,4 @@ zuul:
 #    config-server: /config/**
     # 排除某些路由
   ignored-patterns:
-    - /**/config-test.yml
+    - /**/config-test.json
