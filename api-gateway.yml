@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    config:
+      path: /config/**
+      serviceId: config-server
+      #敏感默认设置 Arrays.asList("Cookie", "Set-Cookie", "Authorization") 如需开放cookie 只需value置为空
+      sensitiveHeaders:
+      # 简洁模式
+#    config-server: /config/**
+    # 排除某些路由
+  ignored-patterns:
+    - /**/config-dev.yml
