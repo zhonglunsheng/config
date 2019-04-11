@@ -9,7 +9,4 @@ zuul:
 #    config-server: /config/**
     # 排除某些路由
   ignored-patterns:
-    - /**/config-dev.yml
-ribbon:
-  ReadTimeout: 3000
-  ConnectTimeout: 3000 
+    - /**/config-test.yml
