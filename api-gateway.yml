@@ -10,3 +10,6 @@ zuul:
     # 排除某些路由
   ignored-patterns:
     - /**/config-dev.yml
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000 
